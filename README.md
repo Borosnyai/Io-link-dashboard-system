@@ -1,90 +1,95 @@
-# Io-link-dashboard-system
-
+````markdown
 # IO-Link Dashboard System
 
 ## Overview
-This project is an industrial IoT system for processing and visualizing sensor data.
+This project is an industrial IoT diploma project for processing and visualizing sensor data.
 
-It connects IO-Link sensors with a modern web dashboard and enables structured, real-time data handling.
-
----
+The goal is to build a structured system that connects IO-Link sensor data with a modern web dashboard. The project focuses on real-time communication, backend architecture, sensor metadata processing, and modular system design.
 
 ## Architecture
 
-IO-Link Sensor → IO-Link Master → MQTT → Backend (NestJS) → Frontend (Vue.js)
+```text
+IO-Link Sensor
+   ↓
+IO-Link Master
+   ↓
+MQTT Broker (Mosquitto)
+   ↓
+Backend (NestJS)
+   ↓
+Frontend (Vue.js)
 
-Additional component:
-- Python Service → parses IODD files and extracts sensor metadata
-
----
+Additional service:
+Python Service → parses IODD files and extracts sensor metadata
+````
 
 ## Technologies
 
-- Backend: NestJS (Node.js)
-- Frontend: Vue.js
-- Data Processing: Python (iodd-parser)
-- Communication: MQTT (Mosquitto)
-- Environment: Linux (Debian)
-
----
+* Backend: NestJS (Node.js)
+* Frontend: Vue.js
+* Data Processing: Python
+* IODD Parsing: iodd-parser
+* Communication: MQTT (Mosquitto)
+* Environment: Linux (Debian)
 
 ## Features
 
-- Real-time sensor data processing via MQTT
-- Structured backend API (REST)
-- IODD file parsing (Python service)
-- Modular system architecture
-- Web-based dashboard visualization
-
----
+* Real-time sensor data communication via MQTT
+* Structured backend API with NestJS
+* Python service for IODD file parsing
+* Extraction and processing of sensor metadata
+* Modular project structure
+* Web-based dashboard for sensor visualization
 
 ## Project Structure
-backend/ # NestJS API
-frontend/ # Vue.js Dashboard
-python-service/ # IODD parsing service
-docs/ # documentation
 
-
----
+```text
+backend/          # NestJS API
+frontend/         # Vue.js dashboard
+python-service/   # Python service for IODD parsing
+docs/             # project documentation
+```
 
 ## Example Workflow
 
-1. Sensor sends process data
-2. IO-Link Master forwards data
-3. MQTT broker distributes messages
-4. Backend processes and structures data
-5. Frontend displays sensor values
+1. The sensor sends process data
+2. The IO-Link Master forwards the data
+3. MQTT distributes the messages
+4. The NestJS backend receives and processes the data
+5. The frontend displays the sensor values
+6. The Python service provides parsed IODD metadata
 
----
+## Current Status
 
-## Status
+This project is currently a work in progress.
 
-Work in progress (Diploma project)
+Implemented so far:
 
-Current progress:
-- MQTT communication implemented
-- Backend API structure ready
-- Python IODD parsing working
-- Frontend basic dashboard
+* MQTT communication
+* Basic backend API structure
+* Python-based IODD parsing
+* Basic frontend dashboard
 
-Planned:
-- WebSocket integration
-- Database integration (InfluxDB / SQL)
-- UI improvements
-- Alert system
+Planned next steps:
 
----
+* WebSocket integration
+* Database integration (InfluxDB or SQL)
+* Improved UI structure
+* Alert and monitoring features
 
 ## Why this project?
 
 This project demonstrates:
-- understanding of industrial communication (IO-Link, MQTT)
-- backend architecture design
-- real-time data processing
-- integration of multiple technologies
 
----
+* industrial communication basics
+* IO-Link related system integration
+* MQTT-based real-time data flow
+* backend and frontend interaction
+* Python-based metadata processing
+* modular full-stack architecture
 
 ## Author
 
 Viktor Borosnyai
+
+````
