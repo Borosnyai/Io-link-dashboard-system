@@ -1,0 +1,13 @@
+.dashboard-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 32px;
+}
+
+.top-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: stretch;
+}
+

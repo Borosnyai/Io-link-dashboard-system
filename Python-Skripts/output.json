@@ -1,0 +1,901 @@
+[
+  {
+    "name": "Direct Parameters - Page 1",
+    "id": "V_DirectParameters_1",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Reserved",
+        "mappings": []
+      },
+      {
+        "subindex": 2,
+        "name": "Master Cycle Time",
+        "mappings": []
+      },
+      {
+        "subindex": 3,
+        "name": "Min Cycle Time",
+        "mappings": []
+      },
+      {
+        "subindex": 4,
+        "name": "M-Sequence Capability",
+        "mappings": []
+      },
+      {
+        "subindex": 5,
+        "name": "IO-Link Revision ID",
+        "mappings": []
+      },
+      {
+        "subindex": 6,
+        "name": "Process Data Input Length",
+        "mappings": []
+      },
+      {
+        "subindex": 7,
+        "name": "Process Data Output Length",
+        "mappings": []
+      },
+      {
+        "subindex": 8,
+        "name": "Vendor ID 1",
+        "mappings": []
+      },
+      {
+        "subindex": 9,
+        "name": "Vendor ID 2",
+        "mappings": []
+      },
+      {
+        "subindex": 10,
+        "name": "Device ID 1",
+        "mappings": []
+      },
+      {
+        "subindex": 11,
+        "name": "Device ID 2",
+        "mappings": []
+      },
+      {
+        "subindex": 12,
+        "name": "Device ID 3",
+        "mappings": []
+      },
+      {
+        "subindex": 13,
+        "name": "Reserved",
+        "mappings": []
+      },
+      {
+        "subindex": 14,
+        "name": "Reserved",
+        "mappings": []
+      },
+      {
+        "subindex": 15,
+        "name": "Reserved",
+        "mappings": []
+      },
+      {
+        "subindex": 16,
+        "name": "System Command",
+        "mappings": [
+          {
+            "val": 128,
+            "text": "Device Reset"
+          },
+          {
+            "val": 129,
+            "text": "Application Reset"
+          },
+          {
+            "val": 130,
+            "text": "Restore Factory Settings"
+          },
+          {
+            "val": 131,
+            "text": "Back-to-box"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Direct Parameters - Page 2",
+    "id": "V_DirectParameters_2",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Device-specific Parameter 1",
+        "mappings": []
+      },
+      {
+        "subindex": 2,
+        "name": "Device-specific Parameter 2",
+        "mappings": []
+      },
+      {
+        "subindex": 3,
+        "name": "Device-specific Parameter 3",
+        "mappings": []
+      },
+      {
+        "subindex": 4,
+        "name": "Device-specific Parameter 4",
+        "mappings": []
+      },
+      {
+        "subindex": 5,
+        "name": "Device-specific Parameter 5",
+        "mappings": []
+      },
+      {
+        "subindex": 6,
+        "name": "Device-specific Parameter 6",
+        "mappings": []
+      },
+      {
+        "subindex": 7,
+        "name": "Device-specific Parameter 7",
+        "mappings": []
+      },
+      {
+        "subindex": 8,
+        "name": "Device-specific Parameter 8",
+        "mappings": []
+      },
+      {
+        "subindex": 9,
+        "name": "Device-specific Parameter 9",
+        "mappings": []
+      },
+      {
+        "subindex": 10,
+        "name": "Device-specific Parameter 10",
+        "mappings": []
+      },
+      {
+        "subindex": 11,
+        "name": "Device-specific Parameter 11",
+        "mappings": []
+      },
+      {
+        "subindex": 12,
+        "name": "Device-specific Parameter 12",
+        "mappings": []
+      },
+      {
+        "subindex": 13,
+        "name": "Device-specific Parameter 13",
+        "mappings": []
+      },
+      {
+        "subindex": 14,
+        "name": "Device-specific Parameter 14",
+        "mappings": []
+      },
+      {
+        "subindex": 15,
+        "name": "Device-specific Parameter 15",
+        "mappings": []
+      },
+      {
+        "subindex": 16,
+        "name": "Device-specific Parameter 16",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "System Command",
+    "id": "V_SystemCommand",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "System Command",
+        "mappings": [
+          {
+            "val": 128,
+            "text": "Device Reset"
+          },
+          {
+            "val": 129,
+            "text": "Application Reset"
+          },
+          {
+            "val": 130,
+            "text": "Restore Factory Settings"
+          },
+          {
+            "val": 131,
+            "text": "Back-to-box"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Device Access Locks",
+    "id": "V_DeviceAccessLocks",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Parameter Write Access",
+        "mappings": [
+          {
+            "val": true,
+            "text": "Locked"
+          },
+          {
+            "val": false,
+            "text": "Unlocked"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Data Storage",
+        "mappings": [
+          {
+            "val": true,
+            "text": "Locked"
+          },
+          {
+            "val": false,
+            "text": "Unlocked"
+          }
+        ]
+      },
+      {
+        "subindex": 3,
+        "name": "Local Parameterization",
+        "mappings": [
+          {
+            "val": true,
+            "text": "Locked"
+          },
+          {
+            "val": false,
+            "text": "Unlocked"
+          }
+        ]
+      },
+      {
+        "subindex": 4,
+        "name": "Local User Interface",
+        "mappings": [
+          {
+            "val": true,
+            "text": "Locked"
+          },
+          {
+            "val": false,
+            "text": "Unlocked"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vendor Name",
+    "id": "V_VendorName",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Vendor Name",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Vendor Text",
+    "id": "V_VendorText",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Vendor Text",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Product Name",
+    "id": "V_ProductName",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Product Name",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Hardware Revision",
+    "id": "V_HardwareRevision",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Hardware Revision",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Firmware Revision",
+    "id": "V_FirmwareRevision",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Firmware Revision",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Product ID",
+    "id": "V_ProductID",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Product ID",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Product Text",
+    "id": "V_ProductText",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Product Text",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Application-specific Tag",
+    "id": "V_ApplicationSpecificTag",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Application-specific Tag",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Device Status",
+    "id": "V_DeviceStatus",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Device Status",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Device is OK"
+          },
+          {
+            "val": 1,
+            "text": "Maintenance required"
+          },
+          {
+            "val": 2,
+            "text": "Out of specification"
+          },
+          {
+            "val": 3,
+            "text": "Functional check"
+          },
+          {
+            "val": 4,
+            "text": "Failure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Detailed Device Status",
+    "id": "V_DetailedDeviceStatus",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Detailed Device Status",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "PD Input",
+    "id": "V_ProcessDataInput",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "PD Input",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "PD Output",
+    "id": "V_ProcessDataOutput",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "PD Output",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Serial Number",
+    "id": "V_SerialNumber",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Serial Number",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Teach-In Channel",
+    "id": "V_TeachInChannel",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Teach-In Channel",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Default BDC (BDC1)"
+          },
+          {
+            "val": 1,
+            "text": "BDC1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Teach-In Status",
+    "id": "V_TeachInStatus",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Teach-In Status",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Setpoint values BDC1",
+    "id": "V_SetPointValueBDC1",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "SP1",
+        "mappings": []
+      },
+      {
+        "subindex": 2,
+        "name": "SP2",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Switch Point Configuration BDC1",
+    "id": "V_SwitchPointConfigBDC1",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Switchpoint Logic",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "N.O."
+          },
+          {
+            "val": 1,
+            "text": "N.C."
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Switchpoint Mode",
+        "mappings": [
+          {
+            "val": 1,
+            "text": "Single Point Mode"
+          },
+          {
+            "val": 2,
+            "text": "Window Mode"
+          },
+          {
+            "val": 3,
+            "text": "Two Point Mode"
+          }
+        ]
+      },
+      {
+        "subindex": 3,
+        "name": "Switchpoint Hysteresis",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "SensorPrinciple",
+    "id": "V_SensorPrinciple",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "SensorPrinciple",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Diffuse"
+          },
+          {
+            "val": 1,
+            "text": "Diffuse with background suppression"
+          },
+          {
+            "val": 2,
+            "text": "Retro-reflective"
+          },
+          {
+            "val": 3,
+            "text": "Through-beam emitter"
+          },
+          {
+            "val": 4,
+            "text": "Through-beam receiver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Switch Counter Settings",
+    "id": "V_SwitchCounterSettings",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Mode",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "OFF"
+          },
+          {
+            "val": 1,
+            "text": "COUNTER STATIC"
+          },
+          {
+            "val": 2,
+            "text": "COUNTER AUTO"
+          },
+          {
+            "val": 3,
+            "text": "SPEED"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Limit",
+        "mappings": []
+      },
+      {
+        "subindex": 3,
+        "name": "Reserved",
+        "mappings": []
+      },
+      {
+        "subindex": 4,
+        "name": "Startup Delay",
+        "mappings": []
+      },
+      {
+        "subindex": 5,
+        "name": "Speed Upper Limit High",
+        "mappings": []
+      },
+      {
+        "subindex": 6,
+        "name": "Speed Upper Limit Low",
+        "mappings": []
+      },
+      {
+        "subindex": 7,
+        "name": "Speed Lower Limit High",
+        "mappings": []
+      },
+      {
+        "subindex": 8,
+        "name": "Speed Lower Limit Low",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Switch Counter State",
+    "id": "V_SwitchCounterState",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Status",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "off"
+          },
+          {
+            "val": 1,
+            "text": "ok"
+          },
+          {
+            "val": 2,
+            "text": "too low"
+          },
+          {
+            "val": 4,
+            "text": "too high"
+          },
+          {
+            "val": 5,
+            "text": "too high"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Counter",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Physical Switching Output Delays for OUT1",
+    "id": "V_PhysicalSwitchingOutputDelays_OUT1",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Function Mode",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Delay"
+          },
+          {
+            "val": 1,
+            "text": "One Shot"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "(On) Delay Time 1",
+        "mappings": []
+      },
+      {
+        "subindex": 3,
+        "name": "(Off/One Shot) Delay Time 2",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Physical Switching Output Delays for OUT2",
+    "id": "V_PhysicalSwitchingOutputDelays_OUT2",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Function Mode",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Delay"
+          },
+          {
+            "val": 1,
+            "text": "One Shot"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "(On) Delay Time 1",
+        "mappings": []
+      },
+      {
+        "subindex": 3,
+        "name": "(Off/One Shot) Delay Time 2",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Physical Input Debounce",
+    "id": "V_PhysicalInputDebounce",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Physical Input Debounce Time for Pin4",
+        "mappings": []
+      },
+      {
+        "subindex": 2,
+        "name": "Physical Input Debounce Time for Pin2",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Pin Function Selection",
+    "id": "V_PinFunctionSelection",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Pin Function Selection for Pin4",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Sensor Output"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Pin Function Selection for Pin2",
+        "mappings": [
+          {
+            "val": 0,
+            "text": "Sensor Output"
+          },
+          {
+            "val": 1,
+            "text": "Reset Input"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LED Power",
+    "id": "V_LEDPower",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "LED Power",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Stresslevel",
+    "id": "V_Stresslevel",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Stresslevel",
+        "mappings": [
+          {
+            "val": 1,
+            "text": "Low stress level: everything OK, a long service life can be expected."
+          },
+          {
+            "val": 2,
+            "text": "Medium stress level: thermal load not optimum, accelerated aging."
+          },
+          {
+            "val": 3,
+            "text": "High stress level: Poor internal thermal state, service life at serious risk."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lifetime",
+    "id": "V_Lifetime",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Lifetime",
+        "mappings": [
+          {
+            "val": 1,
+            "text": "Long service life"
+          },
+          {
+            "val": 2,
+            "text": "Reduced service life, replace sensor during next maintenance cycle"
+          },
+          {
+            "val": 3,
+            "text": "End of service life, replace sensor immediately"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Operating Hours",
+    "id": "V_OperatingHours",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Operating Hours",
+        "mappings": []
+      },
+      {
+        "subindex": 2,
+        "name": "Operating Hours Maintenance",
+        "mappings": []
+      }
+    ]
+  },
+  {
+    "name": "Output Type",
+    "id": "V_OutputType",
+    "values": [
+      {
+        "subindex": 1,
+        "name": "Output Type OUT1",
+        "mappings": [
+          {
+            "val": 1,
+            "text": "PNP"
+          },
+          {
+            "val": 2,
+            "text": "NPN"
+          },
+          {
+            "val": 3,
+            "text": "Push-Pull"
+          }
+        ]
+      },
+      {
+        "subindex": 2,
+        "name": "Output Type OUT2",
+        "mappings": [
+          {
+            "val": 1,
+            "text": "PNP"
+          },
+          {
+            "val": 2,
+            "text": "NPN"
+          },
+          {
+            "val": 3,
+            "text": "Push-Pull"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Excess Gain",
+    "id": "V_ExcessGain",
+    "values": [
+      {
+        "subindex": 0,
+        "name": "Excess Gain",
+        "mappings": []
+      }
+    ]
+  }
+]
