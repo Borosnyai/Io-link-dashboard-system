@@ -1,0 +1,1444 @@
+{
+  "device": {
+    "name": "BOS 21M-UUI-RP30",
+    "manufacturer": "Balluff"
+  },
+  "vendor_text": {
+    "id": "V_VendorText",
+    "name": "Vendor Text",
+    "index": 17,
+    "subindex": null,
+    "datatype": {
+      "type": "ResolvedStringT",
+      "single_values": [],
+      "items": []
+    }
+  },
+  "process_data": {
+    "V_PD": {
+      "condition_variable_id": null,
+      "condition_subindex": null,
+      "condition_value": null,
+      "process_data_in": {
+        "id": "V_PD_ProcessDataIn",
+        "name": "Process Data Inputs",
+        "bit_length": 24,
+        "datatype": {
+          "type": "ResolvedRecordT",
+          "single_values": [],
+          "items": [
+            {
+              "subindex": 1,
+              "name": "BDC1",
+              "bit_offset": 0,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 2,
+              "name": "Stability",
+              "bit_offset": 1,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 3,
+              "name": "Teach-In",
+              "bit_offset": 2,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 4,
+              "name": "ok",
+              "bit_offset": 3,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 5,
+              "name": "too low",
+              "bit_offset": 4,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 6,
+              "name": "too high",
+              "bit_offset": 5,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 7,
+              "name": "CountValue",
+              "bit_offset": 8,
+              "datatype": {
+                "type": "ResolvedUIntegerT",
+                "single_values": []
+              }
+            }
+          ]
+        }
+      },
+      "process_data_out": {
+        "id": "V_PD_ProcessDataOut",
+        "name": "Process Data Outputs",
+        "bit_length": 2,
+        "datatype": {
+          "type": "ResolvedRecordT",
+          "single_values": [],
+          "items": [
+            {
+              "subindex": 1,
+              "name": "Counter Reset",
+              "bit_offset": 0,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "active"
+                  },
+                  {
+                    "value": false,
+                    "name": "inactive"
+                  }
+                ]
+              }
+            },
+            {
+              "subindex": 2,
+              "name": "LED Off",
+              "bit_offset": 1,
+              "datatype": {
+                "type": "ResolvedBooleanT",
+                "single_values": [
+                  {
+                    "value": true,
+                    "name": "LED Off"
+                  },
+                  {
+                    "value": false,
+                    "name": "LED On"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "process_data_in": {
+    "id": "V_ProcessDataInput",
+    "name": "PD Input",
+    "index": 40,
+    "subindex": null,
+    "datatype": null
+  },
+  "process_data_out": {
+    "id": "V_ProcessDataOutput",
+    "name": "PD Output",
+    "index": 41,
+    "subindex": null,
+    "datatype": null
+  },
+  "variables": [
+    {
+      "id": "V_DirectParameters_1",
+      "name": "Direct Parameters - Page 1",
+      "index": 0,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Reserved",
+            "bit_offset": 120,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Master Cycle Time",
+            "bit_offset": 112,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "Min Cycle Time",
+            "bit_offset": 104,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 4,
+            "name": "M-Sequence Capability",
+            "bit_offset": 96,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 5,
+            "name": "IO-Link Revision ID",
+            "bit_offset": 88,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 6,
+            "name": "Process Data Input Length",
+            "bit_offset": 80,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 7,
+            "name": "Process Data Output Length",
+            "bit_offset": 72,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 8,
+            "name": "Vendor ID 1",
+            "bit_offset": 64,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 9,
+            "name": "Vendor ID 2",
+            "bit_offset": 56,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 10,
+            "name": "Device ID 1",
+            "bit_offset": 48,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 11,
+            "name": "Device ID 2",
+            "bit_offset": 40,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 12,
+            "name": "Device ID 3",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 13,
+            "name": "Reserved",
+            "bit_offset": 24,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 14,
+            "name": "Reserved",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 15,
+            "name": "Reserved",
+            "bit_offset": 8,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 16,
+            "name": "System Command",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 128,
+                  "name": "Device Reset"
+                },
+                {
+                  "value": 129,
+                  "name": "Application Reset"
+                },
+                {
+                  "value": 130,
+                  "name": "Restore Factory Settings"
+                },
+                {
+                  "value": 131,
+                  "name": "Back-to-box"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_DirectParameters_2",
+      "name": "Direct Parameters - Page 2",
+      "index": 1,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Device-specific Parameter 1",
+            "bit_offset": 120,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Device-specific Parameter 2",
+            "bit_offset": 112,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "Device-specific Parameter 3",
+            "bit_offset": 104,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 4,
+            "name": "Device-specific Parameter 4",
+            "bit_offset": 96,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 5,
+            "name": "Device-specific Parameter 5",
+            "bit_offset": 88,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 6,
+            "name": "Device-specific Parameter 6",
+            "bit_offset": 80,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 7,
+            "name": "Device-specific Parameter 7",
+            "bit_offset": 72,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 8,
+            "name": "Device-specific Parameter 8",
+            "bit_offset": 64,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 9,
+            "name": "Device-specific Parameter 9",
+            "bit_offset": 56,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 10,
+            "name": "Device-specific Parameter 10",
+            "bit_offset": 48,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 11,
+            "name": "Device-specific Parameter 11",
+            "bit_offset": 40,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 12,
+            "name": "Device-specific Parameter 12",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 13,
+            "name": "Device-specific Parameter 13",
+            "bit_offset": 24,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 14,
+            "name": "Device-specific Parameter 14",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 15,
+            "name": "Device-specific Parameter 15",
+            "bit_offset": 8,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 16,
+            "name": "Device-specific Parameter 16",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_SystemCommand",
+      "name": "System Command",
+      "index": 2,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 128,
+            "name": "Device Reset"
+          },
+          {
+            "value": 129,
+            "name": "Application Reset"
+          },
+          {
+            "value": 130,
+            "name": "Restore Factory Settings"
+          },
+          {
+            "value": 131,
+            "name": "Back-to-box"
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_DeviceAccessLocks",
+      "name": "Device Access Locks",
+      "index": 12,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Parameter Write Access",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedBooleanT",
+              "single_values": [
+                {
+                  "value": true,
+                  "name": "Locked"
+                },
+                {
+                  "value": false,
+                  "name": "Unlocked"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Data Storage",
+            "bit_offset": 1,
+            "datatype": {
+              "type": "ResolvedBooleanT",
+              "single_values": [
+                {
+                  "value": true,
+                  "name": "Locked"
+                },
+                {
+                  "value": false,
+                  "name": "Unlocked"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "Local Parameterization",
+            "bit_offset": 2,
+            "datatype": {
+              "type": "ResolvedBooleanT",
+              "single_values": [
+                {
+                  "value": true,
+                  "name": "Locked"
+                },
+                {
+                  "value": false,
+                  "name": "Unlocked"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 4,
+            "name": "Local User Interface",
+            "bit_offset": 3,
+            "datatype": {
+              "type": "ResolvedBooleanT",
+              "single_values": [
+                {
+                  "value": true,
+                  "name": "Locked"
+                },
+                {
+                  "value": false,
+                  "name": "Unlocked"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_VendorName",
+      "name": "Vendor Name",
+      "index": 16,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_VendorText",
+      "name": "Vendor Text",
+      "index": 17,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_ProductName",
+      "name": "Product Name",
+      "index": 18,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_HardwareRevision",
+      "name": "Hardware Revision",
+      "index": 22,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_FirmwareRevision",
+      "name": "Firmware Revision",
+      "index": 23,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_ProductID",
+      "name": "Product ID",
+      "index": 19,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_ProductText",
+      "name": "Product Text",
+      "index": 20,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_ApplicationSpecificTag",
+      "name": "Application-specific Tag",
+      "index": 24,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_DeviceStatus",
+      "name": "Device Status",
+      "index": 36,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 0,
+            "name": "Device is OK"
+          },
+          {
+            "value": 1,
+            "name": "Maintenance required"
+          },
+          {
+            "value": 2,
+            "name": "Out of specification"
+          },
+          {
+            "value": 3,
+            "name": "Functional check"
+          },
+          {
+            "value": 4,
+            "name": "Failure"
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_DetailedDeviceStatus",
+      "name": "Detailed Device Status",
+      "index": 37,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedArrayT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_ProcessDataInput",
+      "name": "PD Input",
+      "index": 40,
+      "subindex": null,
+      "datatype": null
+    },
+    {
+      "id": "V_ProcessDataOutput",
+      "name": "PD Output",
+      "index": 41,
+      "subindex": null,
+      "datatype": null
+    },
+    {
+      "id": "V_SerialNumber",
+      "name": "Serial Number",
+      "index": 21,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedStringT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_TeachInChannel",
+      "name": "Teach-In Channel",
+      "index": 58,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 0,
+            "name": "Default BDC (BDC1)"
+          },
+          {
+            "value": 1,
+            "name": "BDC1"
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_TeachInStatus",
+      "name": "Teach-In Status",
+      "index": 59,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_SetPointValueBDC1",
+      "name": "Setpoint values BDC1",
+      "index": 60,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "SP1",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "SP2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_SwitchPointConfigBDC1",
+      "name": "Switch Point Configuration BDC1",
+      "index": 61,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Switchpoint Logic",
+            "bit_offset": 24,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "N.O."
+                },
+                {
+                  "value": 1,
+                  "name": "N.C."
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Switchpoint Mode",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 1,
+                  "name": "Single Point Mode"
+                },
+                {
+                  "value": 2,
+                  "name": "Window Mode"
+                },
+                {
+                  "value": 3,
+                  "name": "Two Point Mode"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "Switchpoint Hysteresis",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_SensorPrinciple",
+      "name": "SensorPrinciple",
+      "index": 187,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 0,
+            "name": "Diffuse"
+          },
+          {
+            "value": 1,
+            "name": "Diffuse with background suppression"
+          },
+          {
+            "value": 2,
+            "name": "Retro-reflective"
+          },
+          {
+            "value": 3,
+            "name": "Through-beam emitter"
+          },
+          {
+            "value": 4,
+            "name": "Through-beam receiver"
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_SwitchCounterSettings",
+      "name": "Switch Counter Settings",
+      "index": 182,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Mode",
+            "bit_offset": 104,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "OFF"
+                },
+                {
+                  "value": 1,
+                  "name": "COUNTER STATIC"
+                },
+                {
+                  "value": 2,
+                  "name": "COUNTER AUTO"
+                },
+                {
+                  "value": 3,
+                  "name": "SPEED"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Limit",
+            "bit_offset": 88,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "Reserved",
+            "bit_offset": 72,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 4,
+            "name": "Startup Delay",
+            "bit_offset": 64,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 5,
+            "name": "Speed Upper Limit High",
+            "bit_offset": 48,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 6,
+            "name": "Speed Upper Limit Low",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 7,
+            "name": "Speed Lower Limit High",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 8,
+            "name": "Speed Lower Limit Low",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_SwitchCounterState",
+      "name": "Switch Counter State",
+      "index": 183,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Status",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "off"
+                },
+                {
+                  "value": 1,
+                  "name": "ok"
+                },
+                {
+                  "value": 2,
+                  "name": "too low"
+                },
+                {
+                  "value": 4,
+                  "name": "too high"
+                },
+                {
+                  "value": 5,
+                  "name": "too high"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Counter",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_PhysicalSwitchingOutputDelays_OUT1",
+      "name": "Physical Switching Output Delays for OUT1",
+      "index": 184,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Function Mode",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "Delay"
+                },
+                {
+                  "value": 1,
+                  "name": "One Shot"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "(On) Delay Time 1",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "(Off/One Shot) Delay Time 2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_PhysicalSwitchingOutputDelays_OUT2",
+      "name": "Physical Switching Output Delays for OUT2",
+      "index": 185,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Function Mode",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "Delay"
+                },
+                {
+                  "value": 1,
+                  "name": "One Shot"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "(On) Delay Time 1",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 3,
+            "name": "(Off/One Shot) Delay Time 2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_PhysicalInputDebounce",
+      "name": "Physical Input Debounce",
+      "index": 186,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Physical Input Debounce Time for Pin4",
+            "bit_offset": 16,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Physical Input Debounce Time for Pin2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_PinFunctionSelection",
+      "name": "Pin Function Selection",
+      "index": 188,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Pin Function Selection for Pin4",
+            "bit_offset": 8,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "Sensor Output"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Pin Function Selection for Pin2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 0,
+                  "name": "Sensor Output"
+                },
+                {
+                  "value": 1,
+                  "name": "Reset Input"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_LEDPower",
+      "name": "LED Power",
+      "index": 190,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [],
+        "items": []
+      }
+    },
+    {
+      "id": "V_Stresslevel",
+      "name": "Stresslevel",
+      "index": 1280,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 1,
+            "name": "Low stress level: everything OK, a long service life can be expected."
+          },
+          {
+            "value": 2,
+            "name": "Medium stress level: thermal load not optimum, accelerated aging."
+          },
+          {
+            "value": 3,
+            "name": "High stress level: Poor internal thermal state, service life at serious risk."
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_Lifetime",
+      "name": "Lifetime",
+      "index": 1281,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [
+          {
+            "value": 1,
+            "name": "Long service life"
+          },
+          {
+            "value": 2,
+            "name": "Reduced service life, replace sensor during next maintenance cycle"
+          },
+          {
+            "value": 3,
+            "name": "End of service life, replace sensor immediately"
+          }
+        ],
+        "items": []
+      }
+    },
+    {
+      "id": "V_OperatingHours",
+      "name": "Operating Hours",
+      "index": 87,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Operating Hours",
+            "bit_offset": 32,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Operating Hours Maintenance",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_OutputType",
+      "name": "Output Type",
+      "index": 180,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedRecordT",
+        "single_values": [],
+        "items": [
+          {
+            "subindex": 1,
+            "name": "Output Type OUT1",
+            "bit_offset": 8,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 1,
+                  "name": "PNP"
+                },
+                {
+                  "value": 2,
+                  "name": "NPN"
+                },
+                {
+                  "value": 3,
+                  "name": "Push-Pull"
+                }
+              ]
+            }
+          },
+          {
+            "subindex": 2,
+            "name": "Output Type OUT2",
+            "bit_offset": 0,
+            "datatype": {
+              "type": "ResolvedUIntegerT",
+              "single_values": [
+                {
+                  "value": 1,
+                  "name": "PNP"
+                },
+                {
+                  "value": 2,
+                  "name": "NPN"
+                },
+                {
+                  "value": 3,
+                  "name": "Push-Pull"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "V_ExcessGain",
+      "name": "Excess Gain",
+      "index": 189,
+      "subindex": null,
+      "datatype": {
+        "type": "ResolvedUIntegerT",
+        "single_values": [],
+        "items": []
+      }
+    }
+  ]
+}

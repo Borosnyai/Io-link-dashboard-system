@@ -1,0 +1,153 @@
+BOS 21M-UUI-RP30
+Balluff
+Identification menu: ME_Identification_RW
+Resolved variable has ID "V_SystemCommand" and the name: System Command (index=2) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 128 is Device Reset.
+Option nr. 129 is Application Reset.
+Option nr. 130 is Restore Factory Settings.
+Option nr. 131 is Back-to-box.
+
+
+Resolved variable has ID "V_DeviceStatus" and the name: Device Status (index=36) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 0 is Device is OK.
+Option nr. 1 is Maintenance required.
+Option nr. 2 is Out of specification.
+Option nr. 3 is Functional check.
+Option nr. 4 is Failure.
+
+
+Resolved variable has ID "V_TeachInChannel" and the name: Teach-In Channel (index=58) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 0 is Default BDC (BDC1).
+Option nr. 1 is BDC1.
+
+
+Resolved variable has ID "V_TeachInStatus" and the name: Teach-In Status (index=59) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+
+
+Resolved variable has ID "V_SensorPrinciple" and the name: SensorPrinciple (index=187) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 0 is Diffuse.
+Option nr. 1 is Diffuse with background suppression.
+Option nr. 2 is Retro-reflective.
+Option nr. 3 is Through-beam emitter.
+Option nr. 4 is Through-beam receiver.
+
+
+Resolved variable has ID "V_LEDPower" and the name: LED Power (index=190) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+
+
+Resolved variable has ID "V_Stresslevel" and the name: Stresslevel (index=1280) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 1 is Low stress level: everything OK, a long service life can be expected..
+Option nr. 2 is Medium stress level: thermal load not optimum, accelerated aging..
+Option nr. 3 is High stress level: Poor internal thermal state, service life at serious risk..
+
+
+Resolved variable has ID "V_Lifetime" and the name: Lifetime (index=1281) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+Option nr. 1 is Long service life.
+Option nr. 2 is Reduced service life, replace sensor during next maintenance cycle.
+Option nr. 3 is End of service life, replace sensor immediately.
+
+
+Resolved variable has ID "V_ExcessGain" and the name: Excess Gain (index=189) and the class: <class 'iodd_parser.types.ResolvedUIntegerT'>
+
+
+The variable is --V_DirectParameters_1-- and its index is 0:
+    The name is Reserved and the subindex is 1
+    The name is Master Cycle Time and the subindex is 2
+    The name is Min Cycle Time and the subindex is 3
+    The name is M-Sequence Capability and the subindex is 4
+    The name is IO-Link Revision ID and the subindex is 5
+    The name is Process Data Input Length and the subindex is 6
+    The name is Process Data Output Length and the subindex is 7
+    The name is Vendor ID 1 and the subindex is 8
+    The name is Vendor ID 2 and the subindex is 9
+    The name is Device ID 1 and the subindex is 10
+    The name is Device ID 2 and the subindex is 11
+    The name is Device ID 3 and the subindex is 12
+    The name is Reserved and the subindex is 13
+    The name is Reserved and the subindex is 14
+    The name is Reserved and the subindex is 15
+    The name is System Command and the subindex is 16
+The variable is --V_DirectParameters_2-- and its index is 1:
+    The name is Device-specific Parameter 1 and the subindex is 1
+    The name is Device-specific Parameter 2 and the subindex is 2
+    The name is Device-specific Parameter 3 and the subindex is 3
+    The name is Device-specific Parameter 4 and the subindex is 4
+    The name is Device-specific Parameter 5 and the subindex is 5
+    The name is Device-specific Parameter 6 and the subindex is 6
+    The name is Device-specific Parameter 7 and the subindex is 7
+    The name is Device-specific Parameter 8 and the subindex is 8
+    The name is Device-specific Parameter 9 and the subindex is 9
+    The name is Device-specific Parameter 10 and the subindex is 10
+    The name is Device-specific Parameter 11 and the subindex is 11
+    The name is Device-specific Parameter 12 and the subindex is 12
+    The name is Device-specific Parameter 13 and the subindex is 13
+    The name is Device-specific Parameter 14 and the subindex is 14
+    The name is Device-specific Parameter 15 and the subindex is 15
+    The name is Device-specific Parameter 16 and the subindex is 16
+The variable is --V_SystemCommand-- and its index is 2:
+The variable is --V_DeviceAccessLocks-- and its index is 12:
+    The name is Parameter Write Access and the subindex is 1
+    The name is Data Storage and the subindex is 2
+    The name is Local Parameterization and the subindex is 3
+    The name is Local User Interface and the subindex is 4
+The variable is --V_VendorName-- and its index is 16:
+The variable is --V_VendorText-- and its index is 17:
+The variable is --V_ProductName-- and its index is 18:
+The variable is --V_HardwareRevision-- and its index is 22:
+The variable is --V_FirmwareRevision-- and its index is 23:
+The variable is --V_ProductID-- and its index is 19:
+The variable is --V_ProductText-- and its index is 20:
+The variable is --V_ApplicationSpecificTag-- and its index is 24:
+The variable is --V_DeviceStatus-- and its index is 36:
+The variable is --V_DetailedDeviceStatus-- and its index is 37:
+The variable is --V_ProcessDataInput-- and its index is 40:
+The variable is --V_ProcessDataOutput-- and its index is 41:
+The variable is --V_SerialNumber-- and its index is 21:
+The variable is --V_TeachInChannel-- and its index is 58:
+The variable is --V_TeachInStatus-- and its index is 59:
+The variable is --V_SetPointValueBDC1-- and its index is 60:
+    The name is SP1 and the subindex is 1
+    The name is SP2 and the subindex is 2
+The variable is --V_SwitchPointConfigBDC1-- and its index is 61:
+    The name is Switchpoint Logic and the subindex is 1
+    The name is Switchpoint Mode and the subindex is 2
+    The name is Switchpoint Hysteresis and the subindex is 3
+The variable is --V_SensorPrinciple-- and its index is 187:
+The variable is --V_SwitchCounterSettings-- and its index is 182:
+    The name is Mode and the subindex is 1
+    The name is Limit and the subindex is 2
+    The name is Reserved and the subindex is 3
+    The name is Startup Delay and the subindex is 4
+    The name is Speed Upper Limit High and the subindex is 5
+    The name is Speed Upper Limit Low and the subindex is 6
+    The name is Speed Lower Limit High and the subindex is 7
+    The name is Speed Lower Limit Low and the subindex is 8
+The variable is --V_SwitchCounterState-- and its index is 183:
+    The name is Status and the subindex is 1
+    The name is Counter and the subindex is 2
+The variable is --V_PhysicalSwitchingOutputDelays_OUT1-- and its index is 184:
+    The name is Function Mode and the subindex is 1
+    The name is (On) Delay Time 1 and the subindex is 2
+    The name is (Off/One Shot) Delay Time 2 and the subindex is 3
+The variable is --V_PhysicalSwitchingOutputDelays_OUT2-- and its index is 185:
+    The name is Function Mode and the subindex is 1
+    The name is (On) Delay Time 1 and the subindex is 2
+    The name is (Off/One Shot) Delay Time 2 and the subindex is 3
+The variable is --V_PhysicalInputDebounce-- and its index is 186:
+    The name is Physical Input Debounce Time for Pin4 and the subindex is 1
+    The name is Physical Input Debounce Time for Pin2 and the subindex is 2
+The variable is --V_PinFunctionSelection-- and its index is 188:
+    The name is Pin Function Selection for Pin4 and the subindex is 1
+    The name is Pin Function Selection for Pin2 and the subindex is 2
+The variable is --V_LEDPower-- and its index is 190:
+The variable is --V_Stresslevel-- and its index is 1280:
+The variable is --V_Lifetime-- and its index is 1281:
+The variable is --V_OperatingHours-- and its index is 87:
+    The name is Operating Hours and the subindex is 1
+    The name is Operating Hours Maintenance and the subindex is 2
+The variable is --V_OutputType-- and its index is 180:
+    The name is Output Type OUT1 and the subindex is 1
+    The name is Output Type OUT2 and the subindex is 2
+The variable is --V_ExcessGain-- and its index is 189:
+Input: Process Data Inputs represented in "24" bits
+The id is: V_PD, whereas condition value is None
