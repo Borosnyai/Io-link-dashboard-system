@@ -1,4 +1,3 @@
-````markdown
 # IO-Link Dashboard System
 
 ## Overview
@@ -92,4 +91,4 @@ This project demonstrates:
 
 Viktor Borosnyai
 
-````
+
