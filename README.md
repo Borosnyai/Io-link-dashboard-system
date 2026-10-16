@@ -14,7 +14,7 @@ readable states, trends and maintenance recommendations.
 
 ## Try it in 10 seconds
 
-Open **[demo/frontend-demo.html](demo/frontend-demo.html)** in any modern browser. No installation, no server, no sensor hardware.
+Open the **[live demo](https://borosnyai.github.io/Io-link-dashboard-system/demo/frontend-demo.html)** in any modern browser, or download [demo/frontend-demo.html](demo/frontend-demo.html) and open it locally. No installation, no server, no sensor hardware.
 
 It is the real, unchanged frontend with a simulated backend (three sensors, one hour of history, a live stream every second).
 About 45 seconds after loading, the vibration sensor on **Port 2** starts to drift: you can watch the trend detection,
@@ -96,18 +96,11 @@ A[Live data] --> B[Semantic Engine] --> C[Trend Engine] --> D[Risk Engine] --> E
 
 ---
 
-## Run the full system
+## Source code and full system
 
-The complete project (frontend, Python service, documentation) is in the team repository.
+This repository contains the demo and the documentation. The complete project (frontend source, Python service, documentation) lives in the **team repository, which is private**; access is available on request (vborosnyai@gmail.com).
 
-```bash
-# Frontend
-cd frontend
-npm install
-npm run dev          # http://localhost:5173
-```
-
-The live mode needs the Python service, an MQTT broker and InfluxDB; see the team repository for the full startup sequence.
+The live mode needs the Python service, an MQTT broker and InfluxDB, so it cannot be started from this repository alone. The demo above runs without any of them.
 
 ---
 
@@ -117,4 +110,4 @@ The live mode needs the Python service, an MQTT broker and InfluxDB; see the tea
 * **Backend:** Martin Orthacker
 * **Supervisors:** Prof. DI Stefan Kummer, BEd; DI Thomas Kainz, BSc
 
-License: MIT
+License: [MIT](LICENSE)
